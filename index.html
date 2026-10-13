@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <!-- Navbar -->
+
+<nav class="navbar-glass fixed w-full z-20 top-0 start-0 border-b border-[#1E3A8A]/40">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="#" class="flex items-center h-12 space-x-3 rtl:space-x-reverse">
+      <img src="C:\Users\NEXGEN COMPUTER\Desktop\FIT WDD-17\Project\img/Logo.png" class="h-20 portfoliologo" alt="Portfolio Logo" />
+    </a>
+
+    <button data-collapse-toggle="navbar-default" type="button" class="menu-toggle inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden focus:outline-none" aria-controls="navbar-default" aria-expanded="false">
+      <span class="sr-only">Open main menu</span>
+      <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+        <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/>
+      </svg>
+    </button>
+
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul class="nav-links font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:items-center md:space-x-8 rtl:space-x-reverse md:mt-0">
+        <li><a href="#" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#Skills" class="nav-link">Skills</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li class="md:ml-2">
+          <a href="#contact" class="contact-btn">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- NavBar -->
+
+
+  <!-- Hero Section -->
+<section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center" id="home">
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white"><span class="text-[#F9FAFB]">SHEKH HABEBULLAH</span></h1>
+       <h2 class="title-font sm:text-3xl text-xl mb-4 font-medium text-white typing-text "><span br style="color:#1E3A8A" >Web Designer & Developer</span></h2>
+      <p class="mb-8 leading-relaxed text-gray-400">I web design and develop responsive,visually engaging websites with a strong focus on clean seamless user experience and modern web technology.</p>
+      <div class="flex justify-center">
+        <button class="inline-flex text-white  border-0 py-2 px-5 focus:outline-none rounded text-lg hero-btn1"><a href="https://github.com/WebDeveloperHabeb" target="_blank">
+
+         <!-- From College--> 
+<div class="button-icon">
+  <div class="icon">
+    <svg viewBox="0 0 24 24">
+      <path
+        d="M12 0.296997C5.37 0.296997 0 5.67 0 12.297C0 17.6 3.438 22.097 8.205 23.682C8.805 23.795 9.025 23.424 9.025 23.105C9.025 22.82 9.015 22.065 9.01 21.065C5.672 21.789 4.968 19.455 4.968 19.455C4.422 18.07 3.633 17.7 3.633 17.7C2.546 16.956 3.717 16.971 3.717 16.971C4.922 17.055 5.555 18.207 5.555 18.207C6.625 20.042 8.364 19.512 9.05 19.205C9.158 18.429 9.467 17.9 9.81 17.6C7.145 17.3 4.344 16.268 4.344 11.67C4.344 10.36 4.809 9.29 5.579 8.45C5.444 8.147 5.039 6.927 5.684 5.274C5.684 5.274 6.689 4.952 8.984 6.504C9.944 6.237 10.964 6.105 11.984 6.099C13.004 6.105 14.024 6.237 14.984 6.504C17.264 4.952 18.269 5.274 18.269 5.274C18.914 6.927 18.509 8.147 18.389 8.45C19.154 9.29 19.619 10.36 19.619 11.67C19.619 16.28 16.814 17.295 14.144 17.59C14.564 17.95 14.954 18.686 14.954 19.81C14.954 21.416 14.939 22.706 14.939 23.096C14.939 23.411 15.149 23.786 15.764 23.666C20.565 22.092 24 17.592 24 12.297C24 5.67 18.627 0.296997 12 0.296997Z"
+        fill="#222229"
+      ></path>
+    </svg>
+  </div>
+  <div class="cube">
+    <span class="side front">Explore</span>
+    <span class="side top">Github</span>
+  </div>
+  </div>
+  <!-- cv btn -->
+   <a href="C:\Users\NEXGEN COMPUTER\Desktop\FIT WDD-17\Project\CV" download="Shekh Habebullah-CV.pdf" class="dlcv2-btn  btn1">
+  <span class="dlcv2-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+      <polyline points="7 10 12 15 17 10"></polyline>
+      <line x1="12" y1="15" x2="12" y2="3"></line>
+    </svg>
+  </span>
+  <span class="dlcv2-text">Download CV</span>
+</a>
+
+<!-- cv btn -->
+
+                                                                                           
+      </div>
+    </div>
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 pic-section">
+      <img class=" border-3 border-[#1E3A8A] lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded-full drop-shadow-[0_0px_20px_#2563EB]
+               transition-transform duration-500 hover:scale-105 hover:translate-y-1 pic1 "alt="hero" src="C:\Users\NEXGEN COMPUTER\Desktop\FIT WDD-17\Project\img/Shekh Habebullah Web Designer .jpeg"> 
+    </div>
+  </div>
+</section>
+
+  <!-- Hero Section -->
+
+  <!-- About Section -->
+<section class="text-gray-600 body-font">
+  <center>
+    <h1 class="sm:text-4xl text-3xl font-semibold title-font mb-1 text-[#1E3A8A]">About</h1>
+    <div class="about-underline"></div>
+  </center>
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center " id="about">
+    
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0" >
+      <img class=" border-3 border-[#1E3A8A] lg:w-2/6 md:w-3/6 w-5/6 mb-8 object-cover object-center rounded-full drop-shadow-[0_0px_20px_#2563EB]
+               transition-transform duration-500 hover:scale-105 hover:translate-y-1 pic1 " alt="hero" src="C:\Users\NEXGEN COMPUTER\Desktop\FIT WDD-17\Project\img/Shekh Habebullah Web Designer .jpeg">
+
+      <!-- social icons -->
+      <div class="flex justify-center gap-6 mt-4">
+        <a href="https://www.linkedin.com/in/shekh-habebullah-8691a0158/" target="_blank" class="social-icon" aria-label="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/>
+          </svg>
+        </a>
+
+        <a href="https://github.com/WebDeveloperHabeb" target="_blank" class="social-icon" aria-label="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11.05 11.05 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.77.12 3.06.74.81 1.18 1.84 1.18 3.1 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.07.78 2.15 0 1.56-.01 2.81-.01 3.19 0 .31.21.68.8.56A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/>
+          </svg>
+        </a>
+
+        <a href="shekhhabebullah15@gmail.com" class="social-icon" aria-label="Email">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 2v.01L12 13 4 6.01V6h16zM4 18V8.24l7.4 6.2a1 1 0 0 0 1.2 0L20 8.24V18H4z"/>
+          </svg>
+        </a>
+
+        <a href="https://wa.me/92xxxxxxxxxx" target="_blank" class="social-icon" aria-label="WhatsApp">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.38 1.26 4.8L2 22l5.44-1.35c1.37.72 2.93 1.13 4.6 1.13 5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2zm0 18.02c-1.5 0-2.9-.4-4.11-1.09l-.29-.17-3.05.76.8-2.98-.19-.31a8.04 8.04 0 0 1-1.24-4.31c0-4.46 3.63-8.09 8.09-8.09s8.09 3.63 8.09 8.09-3.63 8.1-8.09 8.1zm4.42-6.07c-.24-.12-1.43-.71-1.65-.79-.22-.08-.38-.12-.54.12-.16.24-.62.79-.76.95-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.2-1.43-1.35-1.67-.14-.24-.02-.37.11-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.19-.47-.39-.4-.54-.41-.14-.01-.3-.01-.46-.01-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.59 4.11 3.63.57.25 1.02.4 1.37.51.58.18 1.1.16 1.51.1.46-.07 1.43-.58 1.63-1.15.2-.57.2-1.05.14-1.15-.06-.1-.22-.16-.46-.28z"/>
+          </svg>
+        </a>
+      </div>
+      <!-- social icons -->
+
+    </div>
+
+    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-5xl text-4xl mb-3 font-medium text-white">SHEKH HABEBULLAH</h1>
+      <h2 class="role-tag text-[19px] mb-4">
+        <span>Web Designer</span>
+        <span class="dot">•</span>
+        <span>Web Developer</span>
+        <span class="dot">•</span>
+        <span>Web Application</span>
+        <span class="dot">•</span>
+        <span>WordPress Expert</span>
+        
+      </h2>
+      <p class="mb-8 leading-relaxed">I'm a passionate Web Designer & Developer and WordPress Expert, who loves turning ideas into clean, responsive, and user-friendly websites. With a strong foundation in HTML, CSS, JavaScript, I focus on writing efficient code and crafting seamless user experiences. I'm always learning new tools and techniques so I can build modern, high-quality for my clients.</p>
+      <div class="flex justify-center">
+        <a href="#projects" class="vp-btn">
+          <span class="vp-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"></path>
+              <circle cx="12" cy="12" r="3"></circle>
+            </svg>
+          </span>
+          <span class="vp-text">Projects</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- About Section -->
+
+  <!-- Skill section -->
+  <section class="text-gray-600 body-font" >
+  <div class="container px-5 py-24 mx-auto" id="Skills" >
+    <div class="flex flex-wrap w-full mb-16 flex-col items-center text-center" >
+      <h1 class="sm:text-4xl text-3xl font-semibold title-font mb-2 text-[#1E3A8A]">Skills</h1>
+      <hr class="skill-divider">
+      <p class="lg:w-1/2 w-full leading-relaxed mt-4 text-gray-500">Technologiy and tools I use to design, build, and ship modern Web Designer & Developer.</p>
+    </div>
+
+    <div class="flex flex-wrap -m-4">
+      <!-- Web Technology Card -->
+      <div class="p-4 md:w-1/2 w-full">
+        <div class="h-full bg-gray-900 p-8 rounded-xl box border border-gray-800">
+          <div class="flex items-center mb-6">
+            <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-[#1E3A8A]/20 flex-shrink-0">
+              <img src="C:\Users\NEXGEN COMPUTER\Desktop\FIT WDD-17\Project\img/icons8-tools-20.png" class="w-5 h-5">
+            </div>
+            <span class="title-font text-lg font-semibold text-white pl-4">Web Technology</span>
+          </div>
+
+          <div class="skill-item">
+            <div class="flex items-center justify-between mb-1">
+              <div class="flex items-center gap-2">
+                <img src="C:\Users\NEXGEN COMPUTER\Desktop\FIT WDD-17\Project\img/Logo (8).png" class="w-5 h-5">
+                <span class="text-sm font-medium text-white">HTML</span>
+              </div>
+              <span class="text-sm font-medium text-gray-400">97%</span>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill html"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="flex items-center justify-between mb-1">
+              <div class="flex items-center gap-2">
+                <img src="C:\Users\NEXGEN COMPUTER\Desktop\FIT WDD-17\Project\img/Logo (9).png" class="w-5 h-5">
+                <span class="text-sm font-medium text-white">CSS</span>
+              </div>
+              <span class="text-sm font-medium text-gray-400">95%</span>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill css"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="flex items-center justify-between mb-1">
+              <div class="flex items-center gap-2">
+                <img src="C:\Users\NEXGEN COMPUTER\Desktop\FIT WDD-17\Project\img/icons8-javascript-48.png" class="w-5 h-5">
+                <span class="text-sm font-medium text-white">JavaScript</span>
+              </div>
+              <span class="text-sm font-medium text-gray-400">70%</span>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill javascript"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Frameworks & Tools -->
+      <div class="p-4 md:w-1/2 w-full">
+        <div class="h-full bg-gray-900 p-8 rounded-xl box border border-gray-800">
+          <div class="flex items-center mb-6">
+            <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-[#1E3A8A]/20 flex-shrink-0">
+              <img src="C:\Users\NEXGEN COMPUTER\Desktop\FIT WDD-17\Project\img/icons8-tools-20.png" class="w-5 h-5">
+            </div>
+            <span class="title-font text-lg font-semibold text-white pl-4">Frameworks & Tools</span>
+          </div>
+
+          <div class="skill-item">
+            <div class="flex items-center justify-between mb-1">
+              <div class="flex items-center gap-2">
+                <img src="C:\Users\NEXGEN COMPUTER\Desktop\FIT WDD-17\Project\img/Wordpress.png" class="w-5 h-5">
+                <span class="text-sm font-medium text-white">WordPress</span>
+              </div>
+              <span class="text-sm font-medium text-gray-400">98%</span>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill tailwind"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="flex items-center justify-between mb-1">
+              <div class="flex items-center gap-2">
+                <img src="C:\Users\NEXGEN COMPUTER\Desktop\FIT WDD-17\Project\img/icons8-github-logo-48.png" class="w-5 h-5">
+                <span class="text-sm font-medium text-white">GitHub</span>
+              </div>
+              <span class="text-sm font-medium text-gray-400">78%</span>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill git"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="flex items-center justify-between mb-1">
+              <div class="flex items-center gap-2">
+                <img src="C:\Users\NEXGEN COMPUTER\Desktop\FIT WDD-17\Project\img/icons8-firebase-24.png" class="w-5 h-5">
+                <span class="text-sm font-medium text-white">jQuery</span>
+              </div>
+              <span class="text-sm font-medium text-gray-400">68%</span>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill firebase"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Skills section -->
+
+<!-- Education Section -->
+<!-- ===== EDUCATION ===== -->
+<section class="text-gray-600 body-font" id="education">
+  <div class="container px-5 py-24 mx-auto flex flex-wrap">
+    <div class="flex flex-wrap w-full mb-10 flex-col items-center text-center">
+      <h1 class="sm:text-4xl text-3xl font-semibold title-font mb-2 text-[#1E3A8A]">Education Qualification</h1>
+      <hr class="section-divider">
+    </div>
+
+    <div class="flex relative pt-10 pb-14 sm:items-center md:w-2/3 mx-auto">
+      <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div class="h-full w-1 bg-[#1E3A8A] pointer-events-none"></div>
+      </div>
+      <div class="timeline-dot"></div>
+      <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0 p-5 info-card">
+          <h2 class="font-medium title-font text-[#1E3A8A] mb-1 text-xl">🎓BSS</h2>
+          <p class="leading-relaxed text-[#3b82f6] font-medium">2006–2007</p>
+          <p class="leading-relaxed mt-2 text-gray-400">Board of National University.<br>
+          Ibrahim Khan College, Buyapur, Tangail.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex relative pb-14 sm:items-center md:w-2/3 mx-auto">
+      <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div class="h-full w-1 bg-[#1E3A8A] pointer-events-none"></div>
+      </div>
+      <div class="timeline-dot"></div>
+      <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+        <div class="flex-grow sm:pl-6 mt-6 p-5 sm:mt-0 info-card">
+          <h2 class="font-medium title-font text-[#1E3A8A] mb-1 text-xl">🎓Alim</h2>
+          <p class="leading-relaxed text-[#3b82f6] font-medium">2005-2006</p>
+          <p class="leading-relaxed mt-2 text-gray-400">Board of Madrasha. <br>
+          Loker Para O.S Fazil Madrasha. Ghatail, Tangail</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex relative pb-4 sm:items-center md:w-2/3 mx-auto">
+      <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div class="h-full w-1 bg-[#1E3A8A] pointer-events-none"></div>
+      </div>
+      <div class="timeline-dot"></div>
+      <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0 p-5 info-card">
+          <h2 class="font-medium title-font text-[#1E3A8A] mb-1 text-xl">💻 Web Designer & Development</h2>
+          <p class="leading-relaxed text-[#3b82f6] font-medium">Freedom IT Institutions <br>2026– At Present</p>
+          <p class="leading-relaxed mt-2 text-gray-400">Currently learning HTML, CSS, and JavaScript. <br>
+          Building responsive websites.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EXPERIENCE ===== -->
+<section class="text-gray-600 body-font" id="experience">
+  <div class="container px-5 py-24 mx-auto flex flex-wrap">
+    <div class="flex flex-wrap w-full mb-10 flex-col items-center text-center">
+      <h1 class="sm:text-4xl text-3xl font-semibold title-font mb-2 text-[#1E3A8A]">Experience</h1>
+      <hr class="section-divider">
+    </div>
+
+    <div class="flex relative pt-10 pb-4 sm:items-center md:w-2/3 mx-auto">
+      <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div class="h-full w-1 bg-[#1E3A8A] pointer-events-none"></div>
+      </div>
+      <div class="timeline-dot"></div>
+      <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0 p-5 info-card">
+          <h2 class="font-medium title-font text-[#1E3A8A] mb-1 text-xl">🌟Teaching</h2>
+          <p class="leading-relaxed text-[#3b82f6] font-medium">Balla Coronation High School & College <br>01/10/2015</p>
+          <p class="leading-relaxed mt-2 text-gray-400">Duration: 11 Years, Present. <br>
+          Taught core subjects while strengthening ICT skills.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Education Section -->
+ <!-- project section -->
+  <section class="text-gray-600 body-font" id="projects">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap w-full mb-16 flex-col items-center text-center">
+      <h1 class="sm:text-4xl text-3xl font-semibold title-font mb-2 text-[#1E3A8A]">Projects</h1>
+      <hr class="section-divider">
+      <p class="lg:w-1/2 w-full leading-relaxed mt-4 text-gray-500">Converted innovative ideas into real-world projects.</p>
+    </div>
+
+    <div class="flex flex-wrap -m-4">
+
+      <!-- Project 1 -->
+      <div class="p-4 md:w-1/3">
+        <div class="h-full rounded-xl overflow-hidden pro-box">
+          <div class="pro-img-wrap">
+            <img class="pro-pic" src="C:\Users\NEXGEN COMPUTER\Desktop\FIT WDD-17\Project\img/Logo (5).PNG" alt="Ice-Cream Website">
+            <div class="pro-overlay">
+              <span class="overlay-text">Preview</span>
+            </div>
+          </div>
+          <div class="p-6">
+            <span class="tag">Web Design</span>
+            <h2 class="tracking-wide text-lg title-font font-bold text-white mt-3 mb-1">IceCream-Website</h2>
+            <p class="leading-relaxed text-gray-400 mb-4 pro-para">An ice cream website showcasing delicious flavors with a smooth, user-friendly interface.</p>
+            <div class="flex items-center gap-3 flex-wrap">
+              <a href="https://icecream-websitee.netlify.app/" target="_blank" class="project-btn">
+                🔗 Live Demo
+              </a>
+              <a href="https://github.com/WebDeveloperHabeb" target="_blank" class="code-btn">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="p-4 md:w-1/3">
+        <div class="h-full rounded-xl overflow-hidden pro-box">
+          <div class="pro-img-wrap">
+            <img class="pro-pic" src="C:\Users\NEXGEN COMPUTER\Desktop\FIT WDD-17\Project\img/car-website.PNG" alt="Car Website">
+            <div class="pro-overlay">
+              <span class="overlay-text">Preview</span>
+            </div>
+          </div>
+          <div class="p-6">
+            <span class="tag">Web Design</span>
+            <h2 class="tracking-wide text-lg title-font font-bold text-white mt-3 mb-1">Car Website</h2>
+            <p class="leading-relaxed text-gray-400 mb-4 pro-para">A car website featuring responsive layouts, and interactive vehicle showcases.</p>
+            <div class="flex items-center gap-3 flex-wrap">
+              <a href="https://car-website-drive-nova.netlify.app" target="_blank" class="project-btn">
+                🔗 Live Demo
+              </a>
+              <a href="https://github.com/WebDeveloperHabeb" target="_blank" class="code-btn">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="p-4 md:w-1/3">
+        <div class="h-full rounded-xl overflow-hidden pro-box">
+          <div class="pro-img-wrap">
+            <img class="pro-pic" src="C:\Users\NEXGEN COMPUTER\Desktop\FIT WDD-17\Project\img/ms word.PNG" alt="MS Word Clone">
+            <div class="pro-overlay">
+              <span class="overlay-text">Preview</span>
+            </div>
+          </div>
+          <div class="p-6">
+            <span class="tag">WordPress</span>
+            <h2 class="tracking-wide text-lg title-font font-bold text-white mt-3 mb-1">MS Word Clone</h2>
+            <p class="leading-relaxed text-gray-400 mb-4 pro-para">A mini MS Word clone with text editing, formatting tools, and a clean user-friendly interface.</p>
+            <div class="flex items-center gap-3 flex-wrap">
+              <a href="https://pro-ms-word.netlify.app/" target="_blank" class="project-btn">
+                🔗 Live Demo
+              </a>
+              <a href="https://github.com/WebDeveloperHabeb" target="_blank" class="code-btn">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="flex flex-wrap -m-4 mt-8">
+
+      <!-- Project 4 -->
+      <div class="p-4 md:w-1/3">
+        <div class="h-full rounded-xl overflow-hidden pro-box">
+          <div class="pro-img-wrap">
+            <img class="pro-pic" src="C:\Users\NEXGEN COMPUTER\Desktop\FIT WDD-17\Project\img/Logo (15).PNG" alt="QR Code Generator">
+            <div class="pro-overlay">
+              <span class="overlay-text">Preview</span>
+            </div>
+          </div>
+          <div class="p-6">
+            <span class="tag">JavaScript</span>
+            <h2 class="tracking-wide text-lg title-font font-bold text-white mt-3 mb-1">QR Code Generator</h2>
+            <p class="leading-relaxed text-gray-400 mb-4 pro-para">A QR code generator that quickly creates customizable QR codes with a simple and responsive design.</p>
+            <div class="flex items-center gap-3 flex-wrap">
+              <a href="https://qr-codee-ap.netlify.app/" target="_blank" class="project-btn">
+                🔗 Live Demo
+              </a>
+              <a href="https://github.com/WebDeveloperHabeb" target="_blank" class="code-btn">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="p-4 md:w-1/3">
+        <div class="h-full rounded-xl overflow-hidden pro-box">
+          <div class="pro-img-wrap">
+            <img class="pro-pic" src="C:\Users\NEXGEN COMPUTER\Desktop\FIT WDD-17\Project\img/Logo (3).PNG" alt="Counter App">
+            <div class="pro-overlay">
+              <span class="overlay-text">Preview</span>
+            </div>
+          </div>
+          <div class="p-6">
+            <span class="tag">JavaScript</span>
+            <h2 class="tracking-wide text-lg title-font font-bold text-white mt-3 mb-1">Calculator</h2>
+            <p class="leading-relaxed text-gray-400 mb-4 pro-para">A counter app with increment, decrement, and reset functionality in a clean user interface.</p>
+            <div class="flex items-center gap-3 flex-wrap">
+              <a href="https://counter-appproject.netlify.app/" target="_blank" class="project-btn">
+                🔗 Live Demo
+              </a>
+              <a href="https://github.com/WebDeveloperHabeb" target="_blank" class="code-btn">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 6 -->
+      <div class="p-4 md:w-1/3">
+        <div class="h-full rounded-xl overflow-hidden pro-box">
+          <div class="pro-img-wrap">
+            <img class="pro-pic" src="C:\Users\NEXGEN COMPUTER\Desktop\FIT WDD-17\Project\img/Logo (14).PNG" alt="Number Guessing Game">
+            <div class="pro-overlay">
+              <span class="overlay-text">Preview</span>
+            </div>
+          </div>
+          <div class="p-6">
+            <span class="tag">JavaScript</span>
+            <h2 class="tracking-wide text-lg title-font font-bold text-white mt-3 mb-1">Number Guessing Game</h2>
+            <p class="leading-relaxed text-gray-400 mb-4 pro-para">A fun number guessing game with random number generation, hints, and a simple interactive interface.</p>
+            <div class="flex items-center gap-3 flex-wrap">
+              <a href="https://number-guessing-game-app.netlify.app/" target="_blank" class="project-btn">
+                🔗 Live Demo
+              </a>
+              <a href="https://github.com/WebDeveloperHabeb" target="_blank" class="code-btn">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+ <!-- project section -->
+
+<!-- Contact Section -->
+<!-- ===== CONTACT SECTION ===== -->
+<section class="text-gray-600 body-font relative" id="contact">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-16">
+      <h1 class="sm:text-4xl text-3xl font-semibold title-font mb-2 text-[#1E3A8A]">Get In Touch</h1>
+      <hr class="section-divider">
+      <p class="lg:w-2/3 mx-auto leading-relaxed mt-4 text-gray-400">Have a project in mind or just want to say hi? Fill out the form below or reach out directly — I'd love to hear from you.</p>
+    </div>
+
+    <div class="flex flex-wrap -m-4 items-stretch">
+
+      <!-- LEFT: Contact Info -->
+      <div class="p-4 md:w-1/3 w-full">
+        <div class="contact-info-box h-full">
+          <h2 class="text-white text-xl font-semibold mb-6">Contact Info</h2>
+
+          <div class="info-row">
+            <div class="info-icon">✉️</div>
+            <div>
+              <p class="info-label">Email</p>
+              <p class="info-value">shekhhabebullah15@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="info-row">
+            <div class="info-icon">📍</div>
+            <div>
+              <p class="info-label">Location</p>
+              <p class="info-value">Balla Bazar, Kalihati, Tangail</p>
+            </div>
+          </div>
+
+          <div class="info-row">
+            <div class="info-icon">💼</div>
+            <div>
+              <p class="info-label">Role</p>
+              <p class="info-value">Web Designer & Developer</p>
+            </div>
+          </div>
+
+          <div class="social-row">
+            <a href="#" target="_blank" class="social-icon" title="GitHub">🐙</a>
+            <a href="#" target="_blank" class="social-icon" title="LinkedIn">in</a>
+            <a href="shekhhabebullah15@gmail.com" class="social-icon" title="Email">✉️</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: Contact Form -->
+      <div class="p-4 md:w-2/3 w-full">
+        <form action="https://formsubmit.co/shekhhabebullah15@gmail.com" method="POST" class="contact-form-box" id="contactForm">
+          <div class="flex flex-wrap -m-2">
+
+            <div class="p-2 w-full md:w-1/2">
+              <div class="relative">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" id="name" name="name" required class="form-input" placeholder="Your name">
+              </div>
+            </div>
+
+            <div class="p-2 w-full md:w-1/2">
+              <div class="relative">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" name="email" required class="form-input" placeholder="shekhhabebullah15@gmail.com">
+              </div>
+            </div>
+
+            <div class="p-2 w-full">
+              <div class="relative">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" id="subject" name="subject" class="form-input" placeholder="What's this about?">
+              </div>
+            </div>
+
+            <div class="p-2 w-full">
+              <div class="relative">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" required class="form-input form-textarea" placeholder="Write your message here..."></textarea>
+              </div>
+            </div>
+
+            <div class="p-2 w-full">
+              <button type="submit" class="submit-btn">
+                Send Message <span class="btn-arrow">→</span>
+              </button>
+            </div>
+
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ===== FLOATING CHATBOT ===== -->
+  <div id="chatToggle" class="chat-toggle">💬</div>
+
+  <div id="chatWindow" class="chat-window">
+    <div class="chat-header">
+      <span>Chat with Shekh Habebullah</span>
+      <span id="chatClose" class="chat-close">✕</span>
+    </div>
+    <div id="chatBody" class="chat-body">
+      <div class="bot-msg">Hi there! 👋 Ask me about Shekh Habebullah skills, education, experience, or how to get in touch.</div>
+    </div>
+    <div class="chat-quick-replies" id="quickReplies">
+      <button class="quick-btn" data-q="skills">Skills</button>
+      <button class="quick-btn" data-q="education">Education</button>
+      <button class="quick-btn" data-q="experience">Experience</button>
+      <button class="quick-btn" data-q="contact">Contact</button>
+    </div>
+    <div class="chat-input-row">
+      <input type="text" id="chatInput" placeholder="Type a message..." class="chat-input">
+      <button id="chatSend" class="chat-send">➤</button>
+    </div>
+  </div>
+  <!-- From Uiverse.io by david-mohseni -->
+        <footer class="ftr-footer">
+  <div class="ftr-top">
+    <div class="ftr-container">
+
+      <!-- Brand -->
+      <div class="ftr-brand">
+        <img src="C:\Users\NEXGEN COMPUTER\Desktop\FIT WDD-17\Project\img/Logo.png"  class="ftr-logo  portfoliologo"  alt="Portfolio Logo">
+        <p class="ftr-role">Web Designer & Developer</p>
+        <p class="ftr-tagline">Building fast, responsive, and  user-friendly interfaces.</p>
+
+        <ul class="ftr-social">
+          <li class="ftr-icon">
+            <span class="ftr-tooltip">Facebook</span>
+            <svg viewBox="0 0 320 512" height="1.1em" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path>
+            </svg>
+          </li>
+          <li class="ftr-icon">
+            <span class="ftr-tooltip">Twitter</span>
+            <svg height="1.5em" fill="currentColor" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+              <path d="M42,12.429c-1.323,0.586-2.746,0.977-4.247,1.162c1.526-0.906,2.7-2.351,3.251-4.058c-1.428,0.837-3.01,1.452-4.693,1.776C34.967,9.884,33.05,9,30.926,9c-4.08,0-7.387,3.278-7.387,7.32c0,0.572,0.067,1.129,0.193,1.67c-6.138-0.308-11.582-3.226-15.224-7.654c-0.64,1.082-1,2.349-1,3.686c0,2.541,1.301,4.778,3.285,6.096c-1.211-0.037-2.351-0.374-3.349-0.914c0,0.022,0,0.055,0,0.086c0,3.551,2.547,6.508,5.923,7.181c-0.617,0.169-1.269,0.263-1.941,0.263c-0.477,0-0.942-0.054-1.392-0.135c0.94,2.902,3.667,5.023,6.898,5.086c-2.528,1.96-5.712,3.134-9.174,3.134c-0.598,0-1.183-0.034-1.761-0.104C9.268,36.786,13.152,38,17.321,38c13.585,0,21.017-11.156,21.017-20.834c0-0.317-0.01-0.633-0.025-0.945C39.763,15.197,41.013,13.905,42,12.429"></path>
+            </svg>
+          </li>
+        
+        </ul>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="ftr-col">
+        <h2 class="ftr-heading">Quick Links</h2>
+        <nav class="ftr-nav">
+          <a href="#" class="ftr-link">Home</a>
+          <a href="#about" class="ftr-link">About</a>
+          <a href="#Skills" class="ftr-link">Skills</a>
+          <a href="#education" class="ftr-link">Education</a>
+          <a href="#experience" class="ftr-link">Experience</a>
+          <a href="#projects" class="ftr-link">Projects</a>
+          <a href="#contact" class="ftr-link">Contact</a>
+        </nav>
+      </div>
+
+      <!-- Contact -->
+      <div class="ftr-col">
+        <h2 class="ftr-heading">Contact</h2>
+        <div class="ftr-contact-row">
+          <span class="ftr-contact-icon">✉️</span>
+          <span>shekhhabebullah15@gmail.com</span>
+        </div>
+        <div class="ftr-contact-row">
+          <span class="ftr-contact-icon">📍</span>
+          <span>Balla Bazar, Kalihati, Tangail</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="ftr-bottom">
+    <p class="ftr-copy">
+      © 2026 All Developed By— <span class="ftr-copy-highlight"> Shekh Habebullah </span>
+    </p>
+  </div>
+</footer>
+<!-- contact section -->
+
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+  <script src="app.js"></script>
+ 
+</body>
+</html>
